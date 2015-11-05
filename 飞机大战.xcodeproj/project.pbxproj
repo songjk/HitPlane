@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DAF09D01A0F80DB0057088F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF09CF1A0F80DB0057088F /* main.m */; };
+		0DAF09D31A0F80DB0057088F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF09D21A0F80DB0057088F /* AppDelegate.m */; };
+		0DAF09D51A0F80DB0057088F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DAF09D41A0F80DB0057088F /* Images.xcassets */; };
+		0DAF09E11A0F80DC0057088F /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF09E01A0F80DC0057088F /* ____Tests.m */; };
+		0DAF09EC1A0F811D0057088F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF09EB1A0F811D0057088F /* MainViewController.m */; };
+		0DAF09EF1A0F81390057088F /* Mainview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF09EE1A0F81390057088F /* Mainview.m */; };
+		0DAF09F41A0F830F0057088F /* bz.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DAF09F01A0F830F0057088F /* bz.png */; };
+		0DAF09F51A0F830F0057088F /* dr.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DAF09F11A0F830F0057088F /* dr.png */; };
+		0DAF09F61A0F830F0057088F /* nc.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DAF09F21A0F830F0057088F /* nc.png */; };
+		0DAF09F71A0F830F0057088F /* zd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DAF09F31A0F830F0057088F /* zd.png */; };
+		0DAF09FA1A0F84DB0057088F /* SJKSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF09F91A0F84DB0057088F /* SJKSprite.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DAF09DB1A0F80DC0057088F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DAF09C21A0F80DB0057088F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DAF09C91A0F80DB0057088F;
+			remoteInfo = "飞机大战";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DAF09CA1A0F80DB0057088F /* 飞机大战.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "飞机大战.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DAF09CE1A0F80DB0057088F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DAF09CF1A0F80DB0057088F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DAF09D11A0F80DB0057088F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0DAF09D21A0F80DB0057088F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0DAF09D41A0F80DB0057088F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0DAF09DA1A0F80DC0057088F /* 飞机大战Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "飞机大战Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DAF09DF1A0F80DC0057088F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DAF09E01A0F80DC0057088F /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		0DAF09EA1A0F811D0057088F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0DAF09EB1A0F811D0057088F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0DAF09ED1A0F81390057088F /* Mainview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mainview.h; sourceTree = "<group>"; };
+		0DAF09EE1A0F81390057088F /* Mainview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mainview.m; sourceTree = "<group>"; };
+		0DAF09F01A0F830F0057088F /* bz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bz.png; sourceTree = "<group>"; };
+		0DAF09F11A0F830F0057088F /* dr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dr.png; sourceTree = "<group>"; };
+		0DAF09F21A0F830F0057088F /* nc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nc.png; sourceTree = "<group>"; };
+		0DAF09F31A0F830F0057088F /* zd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zd.png; sourceTree = "<group>"; };
+		0DAF09F81A0F84DB0057088F /* SJKSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJKSprite.h; sourceTree = "<group>"; };
+		0DAF09F91A0F84DB0057088F /* SJKSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJKSprite.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DAF09C71A0F80DB0057088F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DAF09D71A0F80DC0057088F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DAF09C11A0F80DB0057088F = {
+			isa = PBXGroup;
+			children = (
+				0DAF09CC1A0F80DB0057088F /* 飞机大战 */,
+				0DAF09DD1A0F80DC0057088F /* 飞机大战Tests */,
+				0DAF09CB1A0F80DB0057088F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DAF09CB1A0F80DB0057088F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DAF09CA1A0F80DB0057088F /* 飞机大战.app */,
+				0DAF09DA1A0F80DC0057088F /* 飞机大战Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DAF09CC1A0F80DB0057088F /* 飞机大战 */ = {
+			isa = PBXGroup;
+			children = (
+				0DAF09F01A0F830F0057088F /* bz.png */,
+				0DAF09F11A0F830F0057088F /* dr.png */,
+				0DAF09F21A0F830F0057088F /* nc.png */,
+				0DAF09F31A0F830F0057088F /* zd.png */,
+				0DAF09D11A0F80DB0057088F /* AppDelegate.h */,
+				0DAF09D21A0F80DB0057088F /* AppDelegate.m */,
+				0DAF09D41A0F80DB0057088F /* Images.xcassets */,
+				0DAF09CD1A0F80DB0057088F /* Supporting Files */,
+				0DAF09EA1A0F811D0057088F /* MainViewController.h */,
+				0DAF09EB1A0F811D0057088F /* MainViewController.m */,
+				0DAF09ED1A0F81390057088F /* Mainview.h */,
+				0DAF09EE1A0F81390057088F /* Mainview.m */,
+				0DAF09F81A0F84DB0057088F /* SJKSprite.h */,
+				0DAF09F91A0F84DB0057088F /* SJKSprite.m */,
+			);
+			path = "飞机大战";
+			sourceTree = "<group>";
+		};
+		0DAF09CD1A0F80DB0057088F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DAF09CE1A0F80DB0057088F /* Info.plist */,
+				0DAF09CF1A0F80DB0057088F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DAF09DD1A0F80DC0057088F /* 飞机大战Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0DAF09E01A0F80DC0057088F /* ____Tests.m */,
+				0DAF09DE1A0F80DC0057088F /* Supporting Files */,
+			);
+			path = "飞机大战Tests";
+			sourceTree = "<group>";
+		};
+		0DAF09DE1A0F80DC0057088F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DAF09DF1A0F80DC0057088F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DAF09C91A0F80DB0057088F /* 飞机大战 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DAF09E41A0F80DC0057088F /* Build configuration list for PBXNativeTarget "飞机大战" */;
+			buildPhases = (
+				0DAF09C61A0F80DB0057088F /* Sources */,
+				0DAF09C71A0F80DB0057088F /* Frameworks */,
+				0DAF09C81A0F80DB0057088F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "飞机大战";
+			productName = "飞机大战";
+			productReference = 0DAF09CA1A0F80DB0057088F /* 飞机大战.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DAF09D91A0F80DC0057088F /* 飞机大战Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DAF09E71A0F80DC0057088F /* Build configuration list for PBXNativeTarget "飞机大战Tests" */;
+			buildPhases = (
+				0DAF09D61A0F80DC0057088F /* Sources */,
+				0DAF09D71A0F80DC0057088F /* Frameworks */,
+				0DAF09D81A0F80DC0057088F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DAF09DC1A0F80DC0057088F /* PBXTargetDependency */,
+			);
+			name = "飞机大战Tests";
+			productName = "飞机大战Tests";
+			productReference = 0DAF09DA1A0F80DC0057088F /* 飞机大战Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DAF09C21A0F80DB0057088F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = humanover;
+				TargetAttributes = {
+					0DAF09C91A0F80DB0057088F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					0DAF09D91A0F80DC0057088F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 0DAF09C91A0F80DB0057088F;
+					};
+				};
+			};
+			buildConfigurationList = 0DAF09C51A0F80DB0057088F /* Build configuration list for PBXProject "飞机大战" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0DAF09C11A0F80DB0057088F;
+			productRefGroup = 0DAF09CB1A0F80DB0057088F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DAF09C91A0F80DB0057088F /* 飞机大战 */,
+				0DAF09D91A0F80DC0057088F /* 飞机大战Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DAF09C81A0F80DB0057088F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAF09F71A0F830F0057088F /* zd.png in Resources */,
+				0DAF09D51A0F80DB0057088F /* Images.xcassets in Resources */,
+				0DAF09F41A0F830F0057088F /* bz.png in Resources */,
+				0DAF09F61A0F830F0057088F /* nc.png in Resources */,
+				0DAF09F51A0F830F0057088F /* dr.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DAF09D81A0F80DC0057088F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DAF09C61A0F80DB0057088F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAF09FA1A0F84DB0057088F /* SJKSprite.m in Sources */,
+				0DAF09D31A0F80DB0057088F /* AppDelegate.m in Sources */,
+				0DAF09EF1A0F81390057088F /* Mainview.m in Sources */,
+				0DAF09EC1A0F811D0057088F /* MainViewController.m in Sources */,
+				0DAF09D01A0F80DB0057088F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DAF09D61A0F80DC0057088F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAF09E11A0F80DC0057088F /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DAF09DC1A0F80DC0057088F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DAF09C91A0F80DB0057088F /* 飞机大战 */;
+			targetProxy = 0DAF09DB1A0F80DC0057088F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DAF09E21A0F80DC0057088F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0DAF09E31A0F80DC0057088F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DAF09E51A0F80DC0057088F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "飞机大战/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0DAF09E61A0F80DC0057088F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "飞机大战/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0DAF09E81A0F80DC0057088F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/飞机大战.app/飞机大战";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "飞机大战Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		0DAF09E91A0F80DC0057088F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/飞机大战.app/飞机大战";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "飞机大战Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DAF09C51A0F80DB0057088F /* Build configuration list for PBXProject "飞机大战" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DAF09E21A0F80DC0057088F /* Debug */,
+				0DAF09E31A0F80DC0057088F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DAF09E41A0F80DC0057088F /* Build configuration list for PBXNativeTarget "飞机大战" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DAF09E51A0F80DC0057088F /* Debug */,
+				0DAF09E61A0F80DC0057088F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DAF09E71A0F80DC0057088F /* Build configuration list for PBXNativeTarget "飞机大战Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DAF09E81A0F80DC0057088F /* Debug */,
+				0DAF09E91A0F80DC0057088F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DAF09C21A0F80DB0057088F /* Project object */;
+}
